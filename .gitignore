@@ -1,0 +1,22 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+.coverage
+htmlcov/
+
+# OS and editors
+.DS_Store
+.vscode/
+
+# Keys and sensitive local artifacts
+*.pem
+*.key
+id_rsa
+id_ed25519
+github_key_.txt
